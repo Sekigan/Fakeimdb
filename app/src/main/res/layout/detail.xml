@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/imagepeD"
+        android:layout_width="416dp"
+        android:layout_height="224dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewTituloD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTituloD"
+        android:layout_width="409dp"
+        android:layout_height="71dp"
+        android:text="Lobo de Wall street"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewañoD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagepeD" />
+
+    <TextView
+        android:id="@+id/textViewañoD"
+        android:layout_width="137dp"
+        android:layout_height="38dp"
+        android:text="4999"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewGeneroD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTituloD" />
+
+    <TextView
+        android:id="@+id/textViewGeneroD"
+        android:layout_width="418dp"
+        android:layout_height="55dp"
+        android:text="Gener"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewActoresD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewañoD" />
+
+    <TextView
+        android:id="@+id/textViewActoresD"
+        android:layout_width="404dp"
+        android:layout_height="60dp"
+        android:text="Actores"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGeneroD" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="338dp"
+        android:layout_height="133dp"
+        android:background="@color/colorPrimary"
+        android:src="@android:drawable/ic_menu_share"
+        android:tint="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewActoresD" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="234dp"
+        android:layout_height="50dp"
+        android:numStars="5"
+        
+        app:layout_constraintBottom_toTopOf="@+id/textViewGeneroD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toEndOf="@+id/textViewañoD"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTituloD" />
+</androidx.constraintlayout.widget.ConstraintLayout>

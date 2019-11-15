@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "784025019180",
+    "firebase_url": "https://fakeimdb-ea702.firebaseio.com",
+    "project_id": "fakeimdb-ea702",
+    "storage_bucket": "fakeimdb-ea702.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784025019180:android:7e47076b7d01268c078289",
+        "android_client_info": {
+          "package_name": "com.its.fakeimdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784025019180-c2erj8mgofbnnjj82vor12tpnspk987p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.its.fakeimdb",
+            "certificate_hash": "e4e81163084a8290899c54ef21919fe7bb38d2ee"
+          }
+        },
+        {
+          "client_id": "784025019180-80j7kj40pqriqacj8l0tbadgep908fmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbOOD9D3KyFTOHe9sFDhngy7YMWHUG72U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784025019180-80j7kj40pqriqacj8l0tbadgep908fmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
